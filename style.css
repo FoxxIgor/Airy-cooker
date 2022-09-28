@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+    text-align: center;
+    background-image: url("Airy.png");
+    background-size: 179%;
+    
+}
+
+.navbar-inverse{
+    list-style: none;
+    position:fixed;
+    margin-top: 0% !important;
+    margin-left:0% !important;
+    top:0px;
+    z-index: 10;
+    cursor:pointer;
+    font-size: 110%;
+}
+
+.myNavbar{
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+
+.im1{
+    width: 15%;
+    height: 15%;
+}
