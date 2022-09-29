@@ -1,10 +1,6 @@
-body{
-    background-color: gray;
-    text-align: center;
-    background-image: url("Airy.png");
-    background-size: 179%;
-    
-}
+body{  
+    text-align: center; 
+};
 
 .navbar-inverse{
     list-style: none;
@@ -15,15 +11,35 @@ body{
     z-index: 10;
     cursor:pointer;
     font-size: 110%;
-}
+};
 
 .myNavbar{
     position: sticky;
     top:0;
     z-index: 9999;
+};
+button{
+    border-radius: 50%;
 }
 
-.im1{
-    width: 15%;
-    height: 15%;
+#addButton{
+    color: azure;
+    background-color: rgb(61, 61, 61);
+    border-radius: 20%;
+    border-width: 1px;
+}
+
+
+#addToMenu{
+    color: azure;
+    background-color: rgb(61, 61, 61);
+    border-radius: 20%;
+    border-width: 1px;
+}
+
+#Menu{
+    color: azure;
+    background-color: rgb(61, 61, 61);
+    border-radius: 20%;
+    border-width: 1px;
 }
